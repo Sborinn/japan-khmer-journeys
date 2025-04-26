@@ -1,28 +1,28 @@
 
-import { GraduationCap, Headphones, Building, UserCheck } from 'lucide-react';
+import { Home, Pencil, Building, Map } from 'lucide-react';
 
 const Services = () => {
   // Services data
   const services = [
     {
-      icon: <GraduationCap className="w-12 h-12 text-sakura" />,
-      title: "ការជ្រើសរើសសិក្ខាកាមទៅប្រទេសជប៉ុន",
-      description: "យើងជ្រើសរើស និងបណ្តុះបណ្តាលសិក្ខាកាមដែលមានសក្តានុពល ហើយភ្ជាប់ពួកគេទៅនឹងក្រុមហ៊ុនជប៉ុនដែលត្រូវនឹងជំនាញរបស់ពួកគេ។",
+      icon: <Pencil className="w-12 h-12 text-sakura" />,
+      title: "ការរចនាគម្រោង",
+      description: "ក្រុមស្ថាបត្យករនិងវិស្វករមានជំនាញរបស់យើង បង្កើតគម្រោងផ្ទះដែលបញ្ចូលគ្នារវាងការប្រើប្រាស់ប្រកបដោយប្រសិទ្ធភាព និងសោភ័ណភាព។",
     },
     {
-      icon: <Headphones className="w-12 h-12 text-matcha" />,
-      title: "ការប្រឹក្សាយោបល់សម្រាប់អ្នកធ្វើការ",
-      description: "យើងផ្តល់សេវាប្រឹក្សាផ្ទាល់ខ្លួនដើម្បីជួយអ្នកធ្វើការឱ្យសម្របខ្លួន និងបន្តអាជីពរបស់ពួកគេនៅប្រទេសជប៉ុន។",
+      icon: <Building className="w-12 h-12 text-matcha" />,
+      title: "ការសាងសង់",
+      description: "យើងប្រើប្រាស់សម្ភារៈដែលមានគុណភាពខ្ពស់បំផុត និងបច្ចេកទេសទំនើបដើម្បីសាងសង់លំនៅដ្ឋានដែលមានភាពធន់ និងចីរភាព។",
     },
     {
-      icon: <Building className="w-12 h-12 text-khmerGold" />,
-      title: "កិច្ចសហការជាមួយក្រុមហ៊ុនជប៉ុន",
-      description: "យើងធ្វើការយ៉ាងជិតស្និទ្ធជាមួយក្រុមហ៊ុនជប៉ុនដើម្បីយល់ពីតម្រូវការរបស់ពួកគេ និងដើម្បីផ្តល់សិក្ខាកាមដែលមានគុណភាពខ្ពស់។",
+      icon: <Map className="w-12 h-12 text-khmerGold" />,
+      title: "ការរចនាផ្ទៃខាងក្នុង",
+      description: "ក្រុមរចនាផ្ទៃក្នុងរបស់យើងបង្កើតប្លង់ដែលឆ្លុះបញ្ចាំងពីរចនាបថ និងតម្រូវការរស់នៅរបស់អតិថិជន។",
     },
     {
-      icon: <UserCheck className="w-12 h-12 text-blue-500" />,
-      title: "ការគាំទ្រវប្បធម៌និងភាសា",
-      description: "យើងជួយសិក្ខាកាមក្នុងការសម្របខ្លួនទៅនឹងវប្បធម៌ និងភាសាជប៉ុន ដែលជាចំណែកដ៏សំខាន់នៃជោគជ័យរបស់ពួកគេ។",
+      icon: <Home className="w-12 h-12 text-blue-500" />,
+      title: "ការកែលម្អផ្ទះ",
+      description: "យើងផ្តល់ជូននូវសេវាកម្មកែលម្អផ្ទះពេញលេញ ដើម្បីធ្វើឱ្យលំនៅដ្ឋានចាស់របស់អ្នកមានរូបរាងថ្មីទាំងស្រុង។",
     }
   ];
 
@@ -35,7 +35,7 @@ const Services = () => {
         <div className="text-center mb-16">
           <h2 className="section-title inline-block">សេវាកម្មរបស់យើង</h2>
           <p className="mt-6 max-w-3xl mx-auto text-lg">
-            យើងផ្តល់ជូននូវសេវាកម្មគ្រប់ជ្រុងជ្រោយដើម្បីធានាបាននូវបទពិសោធន៍ប្រកបដោយជោគជ័យសម្រាប់ទាំងសិក្ខាកាម និងក្រុមហ៊ុនដៃគូរបស់យើង។
+            យើងផ្តល់ជូននូវដំណោះស្រាយពេញលេញសម្រាប់តម្រូវការសាងសង់ និងរចនាផ្ទះរបស់អ្នក។ ក្រុមជំនាញការរបស់យើងត្រៀមខ្លួនជាស្រេចដើម្បីបំប្លែងក្តីសុបិនរបស់អ្នកទៅជាការពិត។
           </p>
         </div>
         
@@ -57,8 +57,8 @@ const Services = () => {
         
         {/* Call-to-action */}
         <div className="mt-16 text-center">
-          <a href="#contact" className="btn-primary inline-block">
-            និយាយជាមួយអ្នកជំនាញរបស់យើង
+          <a href="#portfolio" className="btn-primary inline-block">
+            មើលគម្រោងរបស់យើង
           </a>
         </div>
       </div>

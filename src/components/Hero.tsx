@@ -11,7 +11,7 @@ const Hero = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
         style={{ 
-          backgroundImage: "url('https://images.unsplash.com/photo-1492571350019-22de08371fd3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1953&q=80')",
+          backgroundImage: "url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1953&q=80')",
           filter: "brightness(0.6)"
         }}
       ></div>
@@ -22,21 +22,21 @@ const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-6 z-20 text-center">
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 animate-fade-in">
-          ដំណើរការរបស់អ្នកទៅកាន់ប្រទេសជប៉ុនចាប់ផ្តើមនៅទីនេះ
+          សាងសង់ផ្ទះនៃក្តីសុបិនរបស់អ្នក
         </h1>
         <p className="text-xl text-white/90 max-w-3xl mx-auto mb-10 animate-fade-in" style={{animationDelay: "0.2s"}}>
-          យើងភ្ជាប់ទំនាក់ទំនងអ្នកមានទេពកោសល្យខ្មែរជាមួយឱកាសការងារដែលមានគុណភាពខ្ពស់នៅប្រទេសជប៉ុន ដោយផ្ដល់ការជ្រើសរើសបុគ្គលិកប្រកបដោយជំនាញ និងការប្រឹក្សាយោបល់ផ្ទាល់ខ្លួន។
+          យើងផ្តល់ជូនសេវាកម្មដែលមានគុណភាពខ្ពស់បំផុតក្នុងការរចនាផ្ទះ និងសាងសង់ ដើម្បីបំពេញក្តីស្រមៃរបស់អ្នក។
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in" style={{animationDelay: "0.4s"}}>
           <a 
             href="#contact" 
             className="btn-primary flex items-center justify-center gap-2 group"
           >
-            ចាប់ផ្ដើមដំណើរការរបស់អ្នក
+            ទាក់ទងឥឡូវនេះ
             <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
           </a>
-          <a href="#about" className="btn-secondary">
-            ស្វែងយល់បន្ថែម
+          <a href="#portfolio" className="btn-secondary">
+            មើលគម្រោងរបស់យើង
           </a>
         </div>
         

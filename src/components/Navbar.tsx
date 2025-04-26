@@ -12,7 +12,8 @@ const Navbar = () => {
     { name: 'ទំព័រដើម', href: '#hero' },
     { name: 'អំពីយើង', href: '#about' },
     { name: 'សេវាកម្ម', href: '#services' },
-    { name: 'ជោគជ័យ', href: '#testimonials' },
+    { name: 'គម្រោង', href: '#portfolio' },
+    { name: 'អតិថិជន', href: '#testimonials' },
     { name: 'ដំណើរការ', href: '#process' },
     { name: 'ទំនាក់ទំនង', href: '#contact' },
   ];
@@ -42,10 +43,10 @@ const Navbar = () => {
       <div className="container mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
         <a href="#hero" className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-sakura dark:bg-sakura rounded-full flex items-center justify-center">
-            <span className="font-bold text-japanNavy dark:text-white">JK</span>
+          <div className="w-8 h-8 bg-khmerGold dark:bg-khmerGold rounded-full flex items-center justify-center">
+            <span className="font-bold text-japanNavy dark:text-japanNavy">ផទ</span>
           </div>
-          <span className="font-bold text-lg text-japanNavy dark:text-white">ជប៉ុន-ខ្មែរ</span>
+          <span className="font-bold text-lg text-japanNavy dark:text-white">ផ្ទះទំនើប</span>
         </a>
 
         {/* Desktop menu */}
@@ -54,7 +55,7 @@ const Navbar = () => {
             <a 
               key={link.name}
               href={link.href}
-              className="text-japanNavy dark:text-white hover:text-sakura dark:hover:text-sakura transition-colors"
+              className="text-japanNavy dark:text-white hover:text-khmerGold dark:hover:text-khmerGold transition-colors"
             >
               {link.name}
             </a>
@@ -83,7 +84,7 @@ const Navbar = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-japanNavy dark:text-white hover:text-sakura dark:hover:text-sakura transition-colors"
+                className="text-japanNavy dark:text-white hover:text-khmerGold dark:hover:text-khmerGold transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {link.name}

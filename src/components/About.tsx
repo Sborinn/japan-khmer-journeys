@@ -1,5 +1,5 @@
 
-import { Users, Globe, BarChart4 } from 'lucide-react';
+import { Award, Home, Hammer, Star } from 'lucide-react';
 
 const About = () => {
   return (
@@ -14,8 +14,8 @@ const About = () => {
           <div className="lg:w-1/2 relative">
             <div className="w-full h-[400px] overflow-hidden rounded-2xl shadow-xl">
               <img
-                src="https://images.unsplash.com/photo-1554797589-7241bb691973?ixlib=rb-4.0.3&auto=format&fit=crop&w=1336&q=80"
-                alt="ការប្រជុំគណៈគ្រប់គ្រងរបស់ក្រុមហ៊ុន ជប៉ុន-ខ្មែរ"
+                src="https://images.unsplash.com/photo-1613545325278-f24b0cae1224?ixlib=rb-4.0.3&auto=format&fit=crop&w=1336&q=80"
+                alt="ក្រុមការងាររចនា និងសាងសង់ផ្ទះរបស់យើង"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -28,28 +28,33 @@ const About = () => {
           <div className="lg:w-1/2">
             <h2 className="section-title">អំពីយើង</h2>
             <p className="mb-6 text-lg">
-              យើងជាអ្នកជំនាញក្នុងការភ្ជាប់ទំនាក់ទំនងរវាងអ្នកមានទេពកោសល្យខ្មែរ និងឱកាសការងារល្អៗនៅប្រទេសជប៉ុន។ ដោយមានបទពិសោធន៍ជាង ១០ ឆ្នាំ យើងបានជួយសិក្ខាកាមរាប់រយនាក់ឱ្យស្វែងរកការងារ និងជោគជ័យនៅប្រទេសជប៉ុន។
+              យើងជាក្រុមហ៊ុនរចនា និងសាងសង់ផ្ទះដែលមានបទពិសោធន៍ជាង ១៥ ឆ្នាំនៅក្នុងវិស័យសំណង់។ យើងផ្តល់ជូននូវសេវាកម្មពេញលេញ ចាប់ពីការរចនាផ្ទះរហូតដល់ការសាងសង់រចនាសម្ព័ន្ធ និងការរចនាផ្ទៃក្នុងដ៏ស្រស់ស្អាត។
             </p>
             <p className="mb-10 text-lg">
-              ទស្សនវិស័យរបស់យើងគឺដើម្បីកសាងស្ពានវប្បធម៌ និងអាជីពរវាងប្រទេសទាំងពីរ ដោយបង្កើតឱកាសដែលផ្តល់ផលប្រយោជន៍ទាំងសិក្ខាកាមរបស់យើង និងក្រុមហ៊ុនជប៉ុនដែលពួកគេធ្វើការ។
+              បេសកកម្មរបស់យើងគឺការបង្កើតលំនៅដ្ឋានប្រកបដោយគុណភាព និងចីរភាព ដែលឆ្លុះបញ្ចាំងពីរបៀបរស់នៅ និងរចនាបថផ្ទាល់ខ្លួនរបស់អតិថិជន។ យើងធ្វើការយ៉ាងជិតស្និទ្ធជាមួយអតិថិជនដើម្បីបំពេញក្តីសុបិនរបស់ពួកគេ។
             </p>
             
             {/* Stats */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="flex flex-col items-center text-center p-4 rounded-lg shadow-md bg-white dark:bg-japanNavy/40">
-                <Users className="w-10 h-10 text-sakura mb-2" />
-                <span className="text-3xl font-bold">៥០០+</span>
-                <span className="text-sm text-gray-600 dark:text-gray-300">សិក្ខាកាមជោគជ័យ</span>
+                <Home className="w-10 h-10 text-sakura mb-2" />
+                <span className="text-3xl font-bold">៣០០+</span>
+                <span className="text-sm text-gray-600 dark:text-gray-300">ផ្ទះបានសាងសង់</span>
               </div>
               <div className="flex flex-col items-center text-center p-4 rounded-lg shadow-md bg-white dark:bg-japanNavy/40">
-                <Globe className="w-10 h-10 text-matcha mb-2" />
-                <span className="text-3xl font-bold">២០+</span>
-                <span className="text-sm text-gray-600 dark:text-gray-300">ក្រុមហ៊ុនដៃគូ</span>
+                <Star className="w-10 h-10 text-matcha mb-2" />
+                <span className="text-3xl font-bold">៩៨%</span>
+                <span className="text-sm text-gray-600 dark:text-gray-300">អតិថិជនពេញចិត្ត</span>
               </div>
               <div className="flex flex-col items-center text-center p-4 rounded-lg shadow-md bg-white dark:bg-japanNavy/40">
-                <BarChart4 className="w-10 h-10 text-khmerGold mb-2" />
-                <span className="text-3xl font-bold">៩៥%</span>
-                <span className="text-sm text-gray-600 dark:text-gray-300">អត្រាជោគជ័យ</span>
+                <Award className="w-10 h-10 text-khmerGold mb-2" />
+                <span className="text-3xl font-bold">១២</span>
+                <span className="text-sm text-gray-600 dark:text-gray-300">ពានរង្វាន់ឧស្សាហកម្ម</span>
+              </div>
+              <div className="flex flex-col items-center text-center p-4 rounded-lg shadow-md bg-white dark:bg-japanNavy/40">
+                <Hammer className="w-10 h-10 text-blue-500 mb-2" />
+                <span className="text-3xl font-bold">១៥+</span>
+                <span className="text-sm text-gray-600 dark:text-gray-300">ឆ្នាំនៃបទពិសោធន៍</span>
               </div>
             </div>
           </div>

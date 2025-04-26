@@ -4,6 +4,7 @@ import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Services from '@/components/Services';
+import Portfolio from '@/components/Portfolio';  // New component for the portfolio
 import Testimonials from '@/components/Testimonials';
 import Process from '@/components/Process';
 import Contact from '@/components/Contact';
@@ -13,12 +14,12 @@ import ScrollAnimator from '@/components/ScrollAnimator';
 const Index = () => {
   useEffect(() => {
     // Set the page title and meta description in Khmer
-    document.title = 'ជប៉ុន-ខ្មែរ | ការងារនិងឱកាសនៅប្រទេសជប៉ុន';
+    document.title = 'ក្រុមហ៊ុនរចនា និងសាងសង់ផ្ទះ | គុណភាពខ្ពស់ សេវាកម្មល្អឥតខ្ចោះ';
     
     // Update meta tags for SEO
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'ជប៉ុន-ខ្មែរ ជួយភ្ជាប់ទំនាក់ទំនងអ្នកមានទេពកោសល្យខ្មែរជាមួយឱកាសការងារដែលមានគុណភាពខ្ពស់នៅប្រទេសជប៉ុន។');
+      metaDescription.setAttribute('content', 'ក្រុមហ៊ុនរចនា និងសាងសង់ផ្ទះដែលផ្តល់ជូនសេវាកម្មពេញលេញ រួមមានការរចនាគម្រោង ការសាងសង់ និងការរចនាផ្ទៃក្នុង។');
     }
   }, []);
 
@@ -28,6 +29,7 @@ const Index = () => {
       <Hero />
       <About />
       <Services />
+      <Portfolio />
       <Testimonials />
       <Process />
       <Contact />
